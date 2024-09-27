@@ -1,0 +1,116 @@
+/* Código da página */
+
+#page{
+    background-image: url(../Img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto';
+}
+
+header{
+    display: block;
+    background-color: #26397C;
+    width: 100%;
+    height: 80px;
+}
+
+header #logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:20% ;
+    height: inherit;
+}
+
+header a img{
+    display: block;
+    margin: 10px 0 0 38px
+}
+
+header nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:320px;
+    height: inherit;
+
+    display: flex;
+}
+
+nav ul{
+    display: block;
+    width: 100%;
+    padding: 32px 0 32px 50px;
+}
+nav li{
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+nav .link{
+
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+nav .link:hover{
+    
+    color: #5A8E2E;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+main{
+    width: 100%;
+    height: 859px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form{
+    width: 600px;
+    height: 550px;
+    background-color: white;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+
+
+.div-form{
+    color: #26397C;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+
+
+form .div-form label, form .div-form input{
+    display: block;
+    margin: 15px 15%;
+	font-size: 20px;
+    width: 400px;
+    
+}
+
+
+footer{
+    background-color: #26397C;
+    width: 100%;
+    height: 141px;
+}
+
+footer img{
+    display: block;
+    position: absolute;
+    margin: 10px 922px;
+    width: 96px;
+    height: 118px;
+}

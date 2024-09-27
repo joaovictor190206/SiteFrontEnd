@@ -1,0 +1,13 @@
+js fetch - pesquisar sobre
+fetch(input:string, {
+    method?: "GET" | "POST"|"PUT"|"DELETE"
+    MODE?: "NAVIGATE" | "SAME-ORIGIN"| "NO-CORS"| "CORS"
+    HEADERS?: {[key: string]: ANY}    
+}): Promise<response>
+
+get = solicitar uma informação / obter informação, procurar alguma informação "quero ver meus boletos da faculdade"
+post = quando vc envia uma informação para ser salva em algum lugar, cria registro novos, cadastro "quero pagar os boletos da faculdade"
+put = atualiza dados, altera dados, altera registros ja existentes, "quero mudar minha foto de perfil"
+delete = deletar/ apagar um registro
+---------------------------------------------------------------------------------------------------------
+
